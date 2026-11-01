@@ -1,0 +1,35 @@
+Shape: (376429, 4)
+
+Columns: ['@timestamp', 'mac_address', 'association', 'dataType']
+
+Dtypes:
+ str    4
+Name: count, dtype: int64
+
+First 3 rows:
+                                       0  ...                           2
+@timestamp   Oct 4, 2022 @ 21:00:54.602  ...  Oct 4, 2022 @ 20:59:19.848
+mac_address                     device1  ...                     device5
+association               disassociated  ...               disassociated
+dataType                         attack  ...                      attack
+
+[4 rows x 3 columns]
+
+Missing values (top 10):
+ @timestamp     0
+mac_address    0
+association    0
+dataType       0
+dtype: int64
+
+association:
+association
+disassociated    273432
+associated       102997
+Name: count, dtype: int64
+
+dataType:
+dataType
+attack    244017
+normal    132412
+Name: count, dtype: int64

@@ -1,0 +1,38 @@
+{
+  "device8": {
+    "blocked_at": "2022-10-26 15:16:10",
+    "reason": "repeated disconnect flood"
+  },
+  "device10": {
+    "blocked_at": "2022-10-26 15:16:10",
+    "reason": "repeated disconnect flood"
+  },
+  "device2": {
+    "blocked_at": "2022-10-26 15:16:10",
+    "reason": "repeated disconnect flood"
+  },
+  "device1": {
+    "blocked_at": "2022-10-26 15:16:10",
+    "reason": "repeated disconnect flood"
+  },
+  "device9": {
+    "blocked_at": "2022-10-26 15:16:40",
+    "reason": "repeated disconnect flood"
+  },
+  "device12": {
+    "blocked_at": "2022-10-26 15:21:30",
+    "reason": "repeated disconnect flood"
+  },
+  "device11": {
+    "blocked_at": "2022-10-26 15:48:50",
+    "reason": "repeated disconnect flood"
+  },
+  "device3": {
+    "blocked_at": "2022-10-26 21:55:10",
+    "reason": "repeated disconnect flood"
+  },
+  "device5": {
+    "blocked_at": "2022-10-26 21:55:20",
+    "reason": "repeated disconnect flood"
+  }
+}

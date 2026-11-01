@@ -1,0 +1,43 @@
+=== Date range per label ===
+                             min                     max   count
+dataType                                                        
+attack   2022-10-04 18:59:27.167 2022-10-27 22:00:49.943  244017
+normal   2022-10-11 00:00:58.688 2022-10-31 09:34:35.882  132412
+
+=== Rows per device per label ===
+dataType     attack  normal
+mac_address                
+device1       87602   16568
+device10      66040   16525
+device11        177       0
+device12        306       0
+device13          1       0
+device14          1       0
+device15          1       0
+device16         51       0
+device2       13800   16608
+device3       44106   16530
+device4         604       0
+device5         915   16505
+device6          21   16569
+device7           0   16577
+device8       29921   16530
+device9         471       0
+
+=== Association state per label ===
+association  associated  disassociated
+dataType                              
+attack            0.151          0.849
+normal            0.500          0.500
+
+=== Seconds between events (same device), by label ===
+             count    mean      std   min    10%     50%     90%        max
+dataType                                                                   
+attack    244005.0   15.03  1835.05  0.00   0.00    0.00    0.05  548880.98
+normal    132408.0  117.37  2112.26  0.12  45.37  105.38  165.75  454624.87
+
+=== Events per device per 10-second window, by label ===
+             count   mean    std  min  10%  50%    90%    max
+dataType                                                     
+attack      5243.0  46.54  70.74  1.0  1.0  6.0  168.0  925.0
+normal    132412.0   1.00   0.00  1.0  1.0  1.0    1.0    1.0
